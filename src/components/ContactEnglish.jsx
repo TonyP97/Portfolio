@@ -143,7 +143,7 @@ return(
                         </a>
                     </li>
                     <li>
-                        <div className="block py-2 pr-4 pl-3 text-yellow-200 cursor-default rounded hover:text-yellow-400 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">agustinpincheira97@gmail.com</div>
+                        <button onClick={() => window.location = 'mailto:agustinpincheira97@gmail.com'} className="block py-2 pr-4 pl-3 text-yellow-200 cursor-default rounded hover:text-yellow-400 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">agustinpincheira97@gmail.com</button>
                     </li>
                 </ul>
             </div>
