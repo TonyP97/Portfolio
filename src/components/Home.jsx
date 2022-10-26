@@ -143,7 +143,7 @@ return (
             <div className="">
                 <ul className="flex flex-col items-center">
                     <li>
-                        <div className="block py-2 pr-4 pl-3 mt-48 text-yellow-200 cursor-default rotate-90 rounded hover:text-yellow-400 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">agustinpincheira97@gmail.com</div>
+                        <button onClick={() => window.location = 'mailto:agustinpincheira97@gmail.com'} className="block py-2 pr-4 pl-3 mt-48 text-yellow-200 rotate-90 rounded hover:text-yellow-400 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0" title="Enviar email">agustinpincheira97@gmail.com</button>
                     </li>
                     <li>
                         <div className="mt-52 text-yellow-200 rotate-90 cursor-default rounded flex md:p-0">_____________________________</div>
@@ -165,7 +165,7 @@ return (
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="60px" height="60px" className="animate-[spin_1s]"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg" title="Node.js" alt="Node.js" width="60px" height="60px" className="animate-[spin_1s]"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg" title="Express" alt="Express" width="60px" height="60px" className="animate-[spin_1s] bg-gray-400"/>
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg" title="PostreSQL" alt="PostgreSQL" width="60px" height="60px" className="animate-[spin_1s]"/>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="60px" height="60px" className="animate-[spin_1s]"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sequelize/sequelize-original.svg" title="Sequelize" alt="Sequelize" width="60px" height="60px" className="animate-[spin_1s]"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain-wordmark.svg" title="HTML" alt="HTML" width="60px" height="60px" className="animate-[spin_1s]"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain-wordmark.svg" title="CSS" alt="CSS" width="60px" height="60px" className="animate-[spin_1s]"/>
@@ -280,7 +280,7 @@ return (
             <div className="">
                 <ul className="flex flex-col items-center">
                     <li>
-                        <div className="block py-2 pr-4 pl-3 mt-48 text-yellow-200 cursor-default rotate-90 rounded hover:text-yellow-400 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">agustinpincheira97@gmail.com</div>
+                        <button onClick={() => window.location = 'mailto:agustinpincheira97@gmail.com'} className="block py-2 pr-4 pl-3 mt-48 text-yellow-200 rotate-90 rounded hover:text-yellow-400 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0" title="Send email">agustinpincheira97@gmail.com</button>
                     </li>
                     <li>
                         <div className="mt-52 text-yellow-200 rotate-90 cursor-default rounded flex md:p-0">_____________________________</div>
@@ -302,7 +302,7 @@ return (
                             <img className="animate-[spin_1s]" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="60px" height="60px"/>
                             <img className="animate-[spin_1s]" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg" title="Node.js" alt="Node.js" width="60px" height="60px"/>
                             <img className="bg-gray-400 animate-[spin_1s]" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg" title="Express" alt="Express" width="60px" height="60px"/>
-                            <img className="animate-[spin_1s]" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg" title="PostreSQL" alt="PostgreSQL" width="60px" height="60px"/>
+                            <img className="animate-[spin_1s]" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="60px" height="60px"/>
                             <img className="animate-[spin_1s]" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sequelize/sequelize-original.svg" title="Sequelize" alt="Sequelize" width="60px" height="60px"/>
                             <img className="animate-[spin_1s]" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain-wordmark.svg" title="HTML" alt="HTML" width="60px" height="60px"/>
                             <img className="animate-[spin_1s]" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain-wordmark.svg" title="CSS" alt="CSS" width="60px" height="60px"/>

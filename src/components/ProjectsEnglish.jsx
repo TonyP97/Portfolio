@@ -15,7 +15,7 @@ return(
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">PF Restaurante - Group project</h2>
                         <img src={PFRestaunrt} alt="Not found" className="max-w-full max-h-56"/>
-                        <p className="text-yellow-300 max-w-xs">
+                        <p className="text-yellow-300 max-w-xs text-justify">
                             It is a web app for a restaurant, it can be used as a guest, user or administrator. You can register, view the menus and meals, leave your assessment and comment, make and pay reservations. The administrator can manage the menus and meals of each menu, being able to edit them, he can also see/delete products, tables, reservations and users
                         </p>
                         <div className="flex flex-wrap space-x-2">
@@ -23,8 +23,8 @@ return(
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" title="React" alt="React" width="24px" height="24px"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="24px" height="24px"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg" title="Node.js" alt="Node.js" width="24px" height="24px"/>
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg" title="Express" alt="Express" width="24px" height="24px"/>
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg" title="PostreSQL" alt="PostgreSQL" width="24px" height="24px"/>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg" title="Express" alt="Express" width="24px" height="24px" className="bg-gray-400"/>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="24px" height="24px"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sequelize/sequelize-original.svg" title="Sequelize" alt="Sequelize" width="24px" height="24px"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/tailwindcss/tailwindcss-plain.svg" title="Tailwind" alt="Tailwind" width="24px" height="24px"/>
                         </div>
@@ -50,7 +50,7 @@ return(
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">PI Countries</h2>
                         <img src={PICountries} alt="Not found" className="max-w-full max-h-56"/>
-                        <p className="text-yellow-300 max-w-xs">
+                        <p className="text-yellow-300 max-w-xs text-justify">
                             It is a web app that consumes data from the "REST Countries" API and adds new features.
                             You can search for countries and access their details, sort countries ascending and descending by alphabetical and population order. Tourist activities can be created that and assigned to one or more countries and can also be filtered by them.
                         </p>
@@ -59,8 +59,8 @@ return(
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" title="React" alt="React" width="24px" height="24px"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="24px" height="24px"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg" title="Node.js" alt="Node.js" width="24px" height="24px"/>
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg" title="Express" alt="Express" width="24px" height="24px"/>
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg" title="PostreSQL" alt="PostgreSQL" width="24px" height="24px"/>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg" title="Express" alt="Express" width="24px" height="24px" className="bg-gray-400"/>
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg" title="PostgreSQL" alt="PostgreSQL" width="24px" height="24px"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sequelize/sequelize-original.svg" title="Sequelize" alt="Sequelize" width="24px" height="24px"/>
                             <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain-wordmark.svg" title="CSS" alt="CSS" width="24px" height="24px"/>
                         </div>
@@ -86,7 +86,7 @@ return(
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">Freelancer Example Page</h2>
                         <img src={ExampleFreelancer} alt="Not found" className="max-w-full max-h-56"/>
-                        <p className="text-yellow-300 max-w-xs">
+                        <p className="text-yellow-300 max-w-xs text-justify">
                             It is a simple web page. It has no functionalities, it is just a model of what the home page of a freelancer could be.
                         </p>
                         <div className="flex flex-wrap space-x-2">
@@ -115,7 +115,7 @@ return(
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">Example Frontend Store</h2>
                         <img src={ExampleFrontend} alt="Not found" className="max-w-full max-h-56"/>
-                        <p className="text-yellow-300 max-w-xs">
+                        <p className="text-yellow-300 max-w-xs text-justify">
                             It is a simple web page. It has no functionalities, it is only a model of what could be an E-commerce of clothing.
                         </p>
                         <div className="flex flex-wrap space-x-2">

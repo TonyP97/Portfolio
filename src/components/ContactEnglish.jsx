@@ -127,7 +127,7 @@ return(
                 <div class="md:w-2/3"></div>
             </div>
         </form>
-            <div className="mt-10 xl:hidden lg:hidden md:hidden sm:hidden">
+            <div className="mt-10 xl:hidden lg:hidden md:hidden sm:mt-10">
                 <ul className="flex flex-wrap justify-center space-x-4 items-center">
                     <li>
                         <a href="https://github.com/TonyP97" target="_blank" className="block py-2 pr-4 pl-3 text-yellow-200 rounded hover:text-yellow-400 md:hover:bg-transparent md:hover:text-yellow-400 md:p-0">
