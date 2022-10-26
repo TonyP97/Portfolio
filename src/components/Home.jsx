@@ -20,11 +20,6 @@ const Home = () =>  {
     const [language, setLanguage] = React.useState(false);
     const [navbarOpen, setNavbarOpen] = React.useState(false);
 
-    const languagenavbar = () => {
-        setLanguage(!language);
-        setNavbarOpen(!navbarOpen);
-    }
-
     const charging = () => {
         setTimeout(() => {
             setCharge(true);
@@ -79,7 +74,7 @@ return (
                 <div className="flex items-center">
                     <div className="sm:hidden md:hidden lg:hidden xl:hidden">
                         <button disabled title="Español" className="bg-yellow-200 border-yellow-200 border rounded-tl-md rounded-bl-md border-r-0"><span className="text-[#08081f] px-0.5">ES</span></button>
-                        <button title="English" onClick={() => languagenavbar()} className="bg-[#08081f] hover:bg-yellow-400 border-yellow-200 border rounded-tr-md rounded-br-md border-l-0"><span className="text-yellow-200 hover:text-[#08081f] px-0.5">EN</span></button>
+                        <button title="English" onClick={() => setLanguage(!language)} className="bg-[#08081f] hover:bg-yellow-400 border-yellow-200 border rounded-tr-md rounded-br-md border-l-0"><span className="text-yellow-200 hover:text-[#08081f] px-0.5">EN</span></button>
                     </div>
                     <button type="button" onClick={() => setNavbarOpen(!navbarOpen)} class="inline-flex items-center p-2 mx-2 text-sm text-yellow-200 rounded-lg md:hidden hover:bg-[#08081f] focus:outline-none focus:ring-2 focus:ring-yellow-400">
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
@@ -215,7 +210,7 @@ return (
                 </div>
                 <div className="flex items-center">
                     <div className="sm:hidden md:hidden lg:hidden xl:hidden">
-                        <button title="Español" onClick={() => languagenavbar()}className="bg-[#08081f] hover:bg-yellow-400 border rounded-tl-md rounded-bl-md border-r-0"><span className="text-yellow-200 hover:text-[#08081f] px-0.5">ES</span></button>
+                        <button title="Español" onClick={() => setLanguage(!language)}className="bg-[#08081f] hover:bg-yellow-400 border rounded-tl-md rounded-bl-md border-r-0"><span className="text-yellow-200 hover:text-[#08081f] px-0.5">ES</span></button>
                         <button disabled title="English"  className="bg-yellow-200 border-yellow-200 border-yellow-200 border rounded-tr-md rounded-br-md border-l-0"><span className="text-[#08081f] px-0.5">EN</span></button>
                     </div>
                     <button type="button" onClick={() => setNavbarOpen(!navbarOpen)} class="inline-flex items-center p-2 mx-2 text-sm text-yellow-200 rounded-lg md:hidden hover:bg-[#08081f] focus:outline-none focus:ring-2 focus:ring-yellow-400">
