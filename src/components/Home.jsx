@@ -153,7 +153,7 @@ return (
         </aside>
         {/* Content */}
         <main>
-            <div className="my-24 mx-4 xl:mx-72 xl:max-w-6xl lg:mx-48 lg:max-w-6xl md:mx-44 md:max-w-6xl sm:mx-20 sm:max-w-6xl">
+            <div className="my-24 mx-4 xl:mx-72 xl:max-w-full lg:mx-48 lg:max-w-6xl md:mx-44 md:max-w-6xl sm:mx-20 sm:max-w-6xl">
                 <div className="xl:mt-40 xl:mb-96 lg:mt-40 lg:mb-96 md:mt-40 md:mb-96 sm:mt-40 sm:mb-96">
                     <div className="">
                         <h1 className="text-6xl text-blue-500">Hola, soy</h1>
@@ -292,7 +292,7 @@ return (
         </aside>
         {/* Content */}
         <main>
-            <div className="my-24 mx-4 xl:mx-72 xl:max-w-6xl lg:mx-48 lg:max-w-6xl md:mx-44 md:max-w-6xl sm:mx-20 sm:max-w-6xl">
+            <div className="my-24 mx-4 xl:mx-72 xl:max-w-full lg:mx-48 lg:max-w-6xl md:mx-44 md:max-w-6xl sm:mx-20 sm:max-w-6xl">
                 <div className="xl:mt-40 xl:mb-96 lg:mt-40 lg:mb-96 md:mt-40 md:mb-96 sm:mt-40 sm:mb-96">
                     <div className="">
                         <h1 className="text-6xl text-blue-500">Hi, I'm</h1>

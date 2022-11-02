@@ -10,10 +10,10 @@ const ProjectsEnglish = () =>  {
     
 return(
     <div id="projects">
-        <div>
-            <h1 className="text-3xl text-yellow-400 font-bold mb-3">Projects</h1>
-            <div className="gap-y-4 justify-items-center xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2 md:grid md:grid-cols-1 sm:grid sm:grid-cols-1">
-                <div className="rounded-lg border border-yellow-200 max-w-sm">
+        <div className="flex flex-col items-center">
+            <h1 className="text-3xl text-yellow-400 text-center font-bold mb-5">Projects</h1>
+            <div className="gap-x-6 gap-y-3 justify-items-center xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2 md:grid md:grid-cols-1 sm:grid sm:grid-cols-1">
+                <div className="mb-3 rounded-lg border border-yellow-200 max-w-sm">
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">PF Restaurante - Group project</h2>
                         <img src={PFRestaunrt} alt="Not found" className="max-w-full max-h-56"/>
@@ -48,7 +48,7 @@ return(
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg border border-yellow-200 max-w-sm">
+                <div className="mb-3 rounded-lg border border-yellow-200 max-w-sm">
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">PI Countries</h2>
                         <img src={PICountries} alt="Not found" className="max-w-full max-h-56"/>
@@ -84,7 +84,7 @@ return(
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg border border-yellow-200 max-w-sm">
+                <div className="mb-3 rounded-lg border border-yellow-200 max-w-sm">
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">Coffee Blog</h2>
                         <img src={Blogcafe} alt="Not found" className="max-w-full max-h-56"/>
@@ -114,7 +114,7 @@ return(
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg border border-yellow-200 max-w-sm">
+                <div className="mb-3 rounded-lg border border-yellow-200 max-w-sm">
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">Music Festival</h2>
                         <img src={Festivalmusica} alt="Not found" className="max-w-full max-h-56"/>
@@ -145,7 +145,7 @@ return(
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg border border-yellow-200 max-w-sm">
+                <div className="mb-3 rounded-lg border border-yellow-200 max-w-sm">
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">Freelancer Example Page</h2>
                         <img src={ExampleFreelancer} alt="Not found" className="max-w-full max-h-56"/>
@@ -174,7 +174,7 @@ return(
                         </div>
                     </div>
                 </div>
-                <div className="rounded-lg border border-yellow-200 max-w-sm">
+                <div className="mb-3 rounded-lg border border-yellow-200 max-w-sm">
                     <div className="flex flex-col items-center m-3 space-y-2">
                         <h2 className="text-xl text-yellow-300">Example Frontend Store</h2>
                         <img src={ExampleFrontend} alt="Not found" className="max-w-full max-h-56"/>

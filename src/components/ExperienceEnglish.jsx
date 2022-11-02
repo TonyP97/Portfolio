@@ -5,7 +5,7 @@ const ExperienceEnglish = () =>  {
 return(
     <div id="experience">
         <div>
-            <h1 className="text-3xl text-yellow-400 font-bold mb-3">Experience</h1>
+            <h1 className="text-3xl text-yellow-400 text-center font-bold mb-3">Experience</h1>
             <div>
                 <h2 className="text-2xl text-blue-400 font-bold">● [Academic] Full Stack Developer - PF Restaurante</h2>
                 <p className="ml-6 text-sm text-blue-200">Sep 2022 - Oct 2022</p>

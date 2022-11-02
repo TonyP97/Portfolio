@@ -82,7 +82,7 @@ const ContactEnglish = () =>  {
 return(
     <div id="contact" className="flex justify-center">
         <div className="w-60 sm:w-96 md:w-max lg:w-max xl:w-max">
-            <h1 className="text-3xl font-bold mb-6 text-yellow-400">Contact</h1>
+            <h1 className="text-3xl font-bold text-center mb-6 text-yellow-400">Contact</h1>
         <form onSubmit={onSubmit} className="w-full max-w-lg">
             <div class="flex flex-wrap -mx-3">
                 <div class="w-full md:w-1/2 px-3 md:mb-0">
